@@ -12,7 +12,7 @@
 - Rucker, Rudy (2006): "Panpsychism proved. Met with stony silence." In: *Nature* (439), p.508. 
 
 !!! Info
-    You can easily find it on the internet, but [here's a copy for easy reference](../files/Rucker_2009.pdf).
+    You can easily find it on the internet, but [here's a copy for easy reference](../files/rucker_2009.pdf).
 
 ## Study assignments
 
