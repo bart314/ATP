@@ -1,0 +1,94 @@
+site_name: Art and Technology (and Philosophy)
+copyright: Minerva Art Academy 2022
+site_author: Bart Barnard
+site_description: 'Study materials for Caput Selectum Art and Technology (and Philosophy).'
+site_url: 'https://bartbarnard.nl/ATP'
+use_directory_urls: false
+
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  palette:
+    primary: 'blue grey'
+    accent: 'orange'
+  icon:
+    logo: 'material/library'
+  language: 'nl'
+  include_sidebar: false
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - markdown.extensions.codehilite:
+      guess_lang: False
+      linenums: True
+  - markdown.extensions.toc:
+      permalink: true
+      toc_depth: 3
+  - markdown.extensions.def_list
+  - markdown.extensions.admonition
+  - markdown.extensions.footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - js/imgs.js
+  - js/matjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Introduction: 'index.md'
+  - Assessment and learning outcomes: 'assessment.md'
+  - Background: 'background.md'
+  - '1. Presence': 
+    - Introduction: 'chapter1/index.md'
+    - Assignments: 'chapter1/assignments.md'
+  - '2. Media': 
+    - Introduction: 'chapter2/index.md'
+    - Assignments: 'chapter2/assignments.md'
+  - '3. Posthuman': 
+    - Introduction: 'chapter3/index.md'
+    - Assignments: 'chapter3/assignments.md'
+  - '4. Identity': 
+    - Introduction: 'chapter4/index.md'
+    - Assignments: 'chapter4/assignments.md'
+  - '5. Perception': 
+    - Introduction: 'chapter5/index.md'
+    - Assignments: 'chapter5/assignments.md'
+  - '6. Time and Space':
+    - Introduction: 'chapter6/index.md'
+    - Assignments: 'chapter6/assignments.md'
+  - '7. Architecture':
+    - Introduction: 'chapter7/index.md'
+    - Assignments: 'chapter7/assignments.md'
+  - '6. Music':
+    - Introduction: 'chapter8/index.md'
+    - Assignments: 'chapter8/assignments.md'
+
+
+
+
+plugins:
+#  - with-pdf
+  - search
+  - mknotebooks:
+      execute: false
