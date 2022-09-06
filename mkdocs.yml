@@ -58,7 +58,7 @@ extra_javascript:
 nav:
   - Introduction: 'index.md'
   - Assessment and learning outcomes: 'assessment.md'
-  - Background: 'background.md'
+  - Preface: 'preface.md'
   - '1. Presence': 
     - Introduction: 'chapter1/index.md'
     - Assignments: 'chapter1/assignments.md'
